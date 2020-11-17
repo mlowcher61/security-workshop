@@ -38,7 +38,7 @@
         tasks_from: forward_logs_to_syslog
       vars:
         syslog_server: "{{ hostvars['qradar']['private_ip'] }}"
-        checkpoint_server_name: "gw-92b76d"
+        checkpoint_server_name: "gw-42e0c4"
         firewall_provider: checkpoint
 
 - name: Add Check Point log source to QRadar
